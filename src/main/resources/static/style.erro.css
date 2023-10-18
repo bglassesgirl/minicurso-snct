@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
 
 
 *{
@@ -12,7 +12,7 @@
 }
 
 body{
-    background: #28c16f;
+    background: #ff87a5;
     overflow: hidden;
 }
 .header{
@@ -42,12 +42,13 @@ body{
 }
  .navigation ul li a{
     color: #fff;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
     font-size: 1.2rem;
     transition: all .1s ease;
 }
 
 .navigation ul li a:hover{
-    color: #8B4513;
+    color: #450915;
 
 }
 .main{
@@ -67,26 +68,29 @@ body{
     align-items: flex-start;
 }
 .left p{
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
     font-size: 3rem;
-    color: #fff;
+    color: #b5354e;
     margin-bottom: 10px;
 }
 .left h4{
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
     font-size: 2rem;
-    color: #1c683f;
+    color: #de456e;
     margin-bottom: 3rem;
 }
 .btn{
     padding: 1.2rem 2.5rem;
-    background: #1c683f;
+    background: #b5354e;
     border-radius: 15px;
     color: #fff;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
     font-size: 1.2rem;
     font-weight: 700;
     transition: all 0.3s ease;
 }
 .btn:hover{
-    box-shadow: 0 3px 5px #1c683f;
+    box-shadow: 0 3px 5px #450915;
 }
 .right img{
     width: 500px;
